@@ -3,10 +3,10 @@
 ## Sobre
 Este repositório documenta meu aprendizado sobre Docker e containerização.
 
-**Autor:** [SEU NOME]
-**Curso:** [SEU CURSO TÉCNICO]
-**Disciplina:** [NOME DA DISCIPLINA]
-**Data:** [DATA]
+**Autor:** Mateus Ferreira Patrício
+**Curso:** Segurança Cibernética
+**Disciplina:** Banco de Dados
+**Data:** 09/09/26
 
 ## O que estou aprendendo
 - Conceitos fundamentais do Docker
