@@ -17,3 +17,8 @@ echo "Backup concluído: $BACKUP_FILE"
 # Listar backups existentes
 echo "Backups disponíveis:"
 ls -la backups/
+
+chmod +x scripts/backup-banco.sh
+chmod +x scripts/monitorar-mysql.sh
+./scripts/backup-banco.sh
+./scripts/monitorar-mysql.sh
