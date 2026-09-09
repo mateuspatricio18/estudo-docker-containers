@@ -24,3 +24,17 @@ docker run -it ubuntu:latest /bin/bash  # Executa Ubuntu interativo
 git add .
 git commit -m "Tarefa 1: Configuração inicial e primeiro teste com Docker"
 git push origin main
+
+## Dockerfile e Imagens Personalizadas
+docker build -t <nome>:<tag> .    # Constrói imagem a partir do Dockerfile
+docker run -d -p <host>:<container> --name <nome> <imagem>  # Executa container em background
+docker logs <container>           # Mostra logs do container
+docker stop <container>           # Para um container
+docker start <container>          # Inicia um container parado
+docker exec -it <container> /bin/sh  # Acessa container em execução
+
+## Primeira Aplicação Web
+- Criada aplicação HTML simples
+- Dockerfile usando Nginx como base
+- Container acessível em http://localhost:8080
+- Screenshot salvo: screenshot-webapp.png
